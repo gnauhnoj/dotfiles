@@ -2,6 +2,9 @@
 
 curr="$pm/dotfiles"
 
+# zsh-completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+
 # Load main files.
 # echo "Load start\t" $(gdate "+%s-%N")
 source "$curr/terminal/startup.sh"
@@ -16,6 +19,26 @@ autoload -U colors && colors
 fpath=("$curr/terminal" $fpath)
 autoload -Uz promptinit && promptinit
 prompt 'paulmillr'
+
+source ~/.gibo-completion.zsh
+
+# online help?
+unalias run-help
+autoload run-help
+HELPDIR=/usr/local/share/zsh/help
+
+# copied from .bashrc
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export NVM_DIR="/Users/jhh11/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+. ~/Developer/z/z.sh
+
+# virtualenvs
+export WORKON_HOME="$HOME/.virtualenvs"
+source /usr/local/bin/virtualenvwrapper.sh
+
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 # ==================================================================
 # = Aliases =
@@ -337,3 +360,5 @@ function preview() {
   [[ -z "$item" ]] && item='.'
   open $1 -a 'Preview'
 }
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

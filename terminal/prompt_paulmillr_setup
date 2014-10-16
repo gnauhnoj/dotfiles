@@ -40,7 +40,8 @@ function prompt_paulmillr_setup {
 
   autoload -Uz add-zsh-hook
   add-zsh-hook precmd get-vcs-info
-  add-zsh-hook chpwd list-files
+  # broke workon for setenvwrapper
+  # add-zsh-hook chpwd list-files
   add-zsh-hook chpwd get-vcs-info
 
   # zstyle ':omz:module:editor' completing '%B%F{red}...%f%b'
