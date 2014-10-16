@@ -15,7 +15,7 @@
   fc = commit -am 'Initial commit.'
   cpush = "!sh -c 'git commit -au -m \"$1\" && git push -u origin' -"
   d = diff
-  st = status --short
+  st = status
 
   graph = log --graph
   last = log -n 10

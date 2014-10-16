@@ -8,10 +8,11 @@
 # ❯ is green or red depending on previous command exit status.
 #
 # Author: Paul Miller (paulmillr.com)
+# Modified to rename gnauhnoj
 
 vcs_info=''
 
-function prompt_paulmillr_precmd {
+function prompt_gnauhnoj_precmd {
   setopt LOCAL_OPTIONS
   unsetopt XTRACE KSH_ARRAYS
 }
@@ -33,7 +34,7 @@ function get-vcs-info {
   fi
 }
 
-function prompt_paulmillr_setup {
+function prompt_gnauhnoj_setup {
   setopt LOCAL_OPTIONS
   unsetopt XTRACE KSH_ARRAYS
   prompt_opts=(cr percent subst)
@@ -52,5 +53,5 @@ function prompt_paulmillr_setup {
   SPROMPT='zsh: correct %F{red}%R%f to %F{green}%r%f [nyae]? '
 }
 
-prompt_paulmillr_setup "$@"
+prompt_gnauhnoj_setup "$@"
 
