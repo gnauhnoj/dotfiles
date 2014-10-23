@@ -1,0 +1,1534 @@
+Last login: Wed Oct 22 15:26:15 on ttys000
+21:20 ~ ❯ bower       
+zsh: command not found: bower
+21:20 ~ ❯ npm install -g bower
+/usr/local/bin/bower -> /usr/local/lib/node_modules/bower/bin/bower
+bower@1.3.12 /usr/local/lib/node_modules/bower
+├── is-root@1.0.0
+├── junk@1.0.0
+├── stringify-object@1.0.0
+├── abbrev@1.0.5
+├── chmodr@0.1.0
+├── which@1.0.5
+├── osenv@0.1.0
+├── opn@1.0.0
+├── archy@0.0.2
+├── rimraf@2.2.8
+├── lru-cache@2.5.0
+├── graceful-fs@3.0.4
+├── bower-logger@0.2.2
+├── bower-endpoint-parser@0.2.2
+├── lockfile@1.0.0
+├── nopt@3.0.1
+├── retry@0.6.0
+├── tmp@0.0.23
+├── q@1.0.1
+├── semver@2.3.2
+├── p-throttler@0.1.0 (q@0.9.7)
+├── mout@0.9.1
+├── fstream@1.0.2 (inherits@2.0.1)
+├── request-progress@0.3.0 (throttleit@0.0.2)
+├── shell-quote@1.4.2 (array-filter@0.0.1, array-reduce@0.0.0, array-map@0.0.0, jsonify@0.0.0)
+├── bower-json@0.4.0 (intersect@0.0.3, deep-extend@0.2.11, graceful-fs@2.0.3)
+├── fstream-ignore@1.0.1 (inherits@2.0.1, minimatch@1.0.0)
+├── promptly@0.2.0 (read@1.0.5)
+├── mkdirp@0.5.0 (minimist@0.0.8)
+├── glob@4.0.6 (inherits@2.0.1, minimatch@1.0.0, once@1.3.1)
+├── chalk@0.5.0 (escape-string-regexp@1.0.2, ansi-styles@1.1.0, supports-color@0.2.0, strip-ansi@0.3.0, has-ansi@0.1.0)
+├── bower-config@0.5.2 (osenv@0.0.3, graceful-fs@2.0.3, optimist@0.6.1)
+├── tar-fs@0.5.2 (pump@0.3.5, tar-stream@0.4.7)
+├── decompress-zip@0.0.8 (nopt@2.2.1, mkpath@0.1.0, touch@0.0.2, readable-stream@1.1.13, binary@0.3.0)
+├── cardinal@0.4.0 (redeyed@0.4.4)
+├── request@2.42.0 (caseless@0.6.0, json-stringify-safe@5.0.0, aws-sign2@0.5.0, forever-agent@0.5.2, stringstream@0.0.4, oauth-sign@0.4.0, tunnel-agent@0.4.0, node-uuid@1.4.1, qs@1.2.2, mime-types@1.0.2, bl@0.9.3, tough-cookie@0.12.1, http-signature@0.10.0, form-data@0.1.4, hawk@1.1.1)
+├── bower-registry-client@0.2.1 (graceful-fs@2.0.3, request-replay@0.2.0, lru-cache@2.3.1, async@0.2.10, mkdirp@0.3.5, request@2.27.0)
+├── handlebars@2.0.0 (optimist@0.3.7, uglify-js@2.3.6)
+├── update-notifier@0.2.0 (semver-diff@0.1.0, string-length@0.1.2, latest-version@0.2.0, configstore@0.3.1)
+├── inquirer@0.7.1 (figures@1.3.3, mute-stream@0.0.4, through@2.3.6, readline2@0.1.0, lodash@2.4.1, cli-color@0.3.2, rx@2.3.13)
+└── insight@0.4.3 (object-assign@1.0.0, async@0.9.0, chalk@0.5.1, os-name@1.0.1, tough-cookie@0.12.1, lodash.debounce@2.4.1, configstore@0.3.1, inquirer@0.6.0)
+21:20 ~ ❯ cd Copy/CT/5356\ -\ Startup\ Systems 
+22:27 5356 - Startup Systems master ❯ ls
+HW0       README.md
+22:27 5356 - Startup Systems master ❯ cd ~/Developer 
+22:27 Developer ❯ ls
+AndroidStudioProjects    gnauhnoj                 z
+IdeaProjects             play-button-itunes-patch
+22:27 Developer ❯ cd IdeaProjects 
+22:27 IdeaProjects ❯ ls
+CS5320-HW2
+22:27 IdeaProjects ❯ rm -rf CS5320-HW2 
+22:27 IdeaProjects ❯ cd ..
+22:27 Developer ❯ ls
+AndroidStudioProjects    gnauhnoj                 z
+IdeaProjects             play-button-itunes-patch
+22:27 Developer ❯ cd AndroidStudioProjects 
+22:27 AndroidStudioProjects ❯ ls
+MyFirstApp Team-13    paw-server
+22:27 AndroidStudioProjects ❯ cd Team-13 
+22:27 Team-13 feat/crudRoutes* ❯ subl .
+22:28 Team-13 feat/crudRoutes* ❯ git st
+On branch feat/crudRoutes
+Changes not staged for commit:
+	modified:   .gitignore
+	modified:   CONTRIBUTING.md
+	modified:   FoodJournalingApp/.gitignore
+	modified:   FoodJournalingApp/.idea/.name
+	modified:   FoodJournalingApp/.idea/compiler.xml
+	modified:   FoodJournalingApp/.idea/copyright/profiles_settings.xml
+	modified:   FoodJournalingApp/.idea/encodings.xml
+	modified:   FoodJournalingApp/.idea/gradle.xml
+	modified:   FoodJournalingApp/.idea/misc.xml
+	modified:   FoodJournalingApp/.idea/modules.xml
+	modified:   FoodJournalingApp/.idea/scopes/scope_settings.xml
+	modified:   FoodJournalingApp/.idea/vcs.xml
+	modified:   FoodJournalingApp/FoodJournalingApp.iml
+	modified:   FoodJournalingApp/app/.gitignore
+	modified:   FoodJournalingApp/app/app.iml
+	modified:   FoodJournalingApp/app/build.gradle
+	modified:   FoodJournalingApp/app/proguard-rules.pro
+	modified:   FoodJournalingApp/app/src/androidTest/java/com/cs5356_team13/foodjournalingapp/ApplicationTest.java
+	modified:   FoodJournalingApp/app/src/main/AndroidManifest.xml
+	modified:   FoodJournalingApp/app/src/main/java/com/cs5356_team13/foodjournalingapp/Dummy.java
+	modified:   FoodJournalingApp/app/src/main/res/drawable-hdpi/ic_launcher.png
+	modified:   FoodJournalingApp/app/src/main/res/drawable-mdpi/ic_launcher.png
+	modified:   FoodJournalingApp/app/src/main/res/drawable-xhdpi/ic_launcher.png
+	modified:   FoodJournalingApp/app/src/main/res/drawable-xxhdpi/ic_launcher.png
+	modified:   FoodJournalingApp/app/src/main/res/layout/activity_dummy.xml
+	modified:   FoodJournalingApp/app/src/main/res/layout/fragment_dummy.xml
+	modified:   FoodJournalingApp/app/src/main/res/menu/dummy.xml
+	modified:   FoodJournalingApp/app/src/main/res/values-w820dp/dimens.xml
+	modified:   FoodJournalingApp/app/src/main/res/values/dimens.xml
+	modified:   FoodJournalingApp/app/src/main/res/values/strings.xml
+	modified:   FoodJournalingApp/app/src/main/res/values/styles.xml
+	modified:   FoodJournalingApp/build.gradle
+	modified:   FoodJournalingApp/gradle.properties
+	modified:   FoodJournalingApp/gradle/wrapper/gradle-wrapper.jar
+	modified:   FoodJournalingApp/gradle/wrapper/gradle-wrapper.properties
+	modified:   FoodJournalingApp/gradlew.bat
+	modified:   FoodJournalingApp/settings.gradle
+	modified:   FoodScore - JS/.gitignore
+	modified:   FoodScore - JS/README.md
+	modified:   FoodScore - JS/package.json
+	modified:   FoodScore - JS/server/.jshintrc
+	modified:   FoodScore - JS/server/auth/auth_controller.js
+	modified:   FoodScore - JS/server/auth/client/client_controller.create.js
+	modified:   FoodScore - JS/server/auth/client/client_controller.get.js
+	modified:   FoodScore - JS/server/auth/client/client_model.js
+	modified:   FoodScore - JS/server/auth/client/client_routes.js
+	modified:   FoodScore - JS/server/auth/code/code_model.js
+	modified:   FoodScore - JS/server/auth/oauth2/oauth2_config.js
+	modified:   FoodScore - JS/server/auth/oauth2/oauth2_controller.js
+	modified:   FoodScore - JS/server/auth/oauth2/oauth2_helpers.js
+	modified:   FoodScore - JS/server/auth/oauth2/oauth2_routes.js
+	modified:   FoodScore - JS/server/auth/token/token_model.js
+	modified:   FoodScore - JS/server/main/app.js
+	modified:   FoodScore - JS/server/main/config.js
+	modified:   FoodScore - JS/server/main/middleware.js
+	modified:   FoodScore - JS/server/photo/photo_controller.create.js
+	modified:   FoodScore - JS/server/photo/photo_controller.delete.js
+	modified:   FoodScore - JS/server/photo/photo_controller.get.js
+	modified:   FoodScore - JS/server/photo/photo_controller.put.js
+	modified:   FoodScore - JS/server/photo/photo_model.js
+	modified:   FoodScore - JS/server/photo/photo_routes.js
+	modified:   FoodScore - JS/server/server.js
+	modified:   FoodScore - JS/server/user/user_controller.create.js
+	modified:   FoodScore - JS/server/user/user_controller.get.js
+	modified:   FoodScore - JS/server/user/user_model.js
+	modified:   FoodScore - JS/server/user/user_routes.js
+	modified:   FoodScore - JS/views/dialog.ejs
+	modified:   Project Proposal FoodScore - Draft2.pdf
+	modified:   README.md
+
+no changes added to commit
+22:30 Team-13 feat/crudRoutes* ❯ git br
+  bug/removeDemoCode
+* feat/crudRoutes
+  master
+22:30 Team-13 feat/crudRoutes* ❯ ls   
+CONTRIBUTING.md                         Project Proposal FoodScore - Draft2.pdf
+FoodJournalingApp                       README.md
+FoodScore - JS
+23:09 Team-13 feat/crudRoutes* ❯ cd Food
+cd: no such file or directory: Food
+23:09 Team-13 feat/crudRoutes* ❯ cd FoodScore\ -\ JS 
+23:09 FoodScore - JS feat/crudRoutes* ❯ ls
+README.md     client        npm-debug.log server
+bower.json    node_modules  package.json  views
+23:09 FoodScore - JS feat/crudRoutes* ❯ node server/server.js 
+Listening on http://localhost:9000
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: failed to connect to [localhost:27017]
+    at null.<anonymous> (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:546:74)
+    at emit (events.js:106:17)
+    at null.<anonymous> (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:150:15)
+    at emit (events.js:98:17)
+    at Socket.<anonymous> (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js:533:10)
+    at Socket.emit (events.js:95:17)
+    at net.js:440:14
+    at process._tickCallback (node.js:419:13)
+23:09 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 200 18.801 ms - 2929
+GET /assets/styles/css/main.css - - ms - -
+GET /assets/styles/css/bootstrap-overrides.css 200 29.667 ms - 8011
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 200 61.330 ms - 99961
+GET /bower_components/angular/angular.js - - ms - -
+GET /assets/styles/css/layout.css 200 64.773 ms - 14213
+GET /assets/styles/css/elements.css 200 69.607 ms - 19302
+GET /assets/styles/css/personal-info.css 200 70.798 ms - 2619
+GET /assets/styles/css/tables.css 200 72.271 ms - 3537
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js - - ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js - - ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js - - ms - -
+GET /bower_components/lodash/dist/lodash.compat.js - - ms - -
+GET /bower_components/restangular/src/restangular.js - - ms - -
+GET /app/app.js - - ms - -
+GET /app/routes.js - - ms - -
+GET /angular-services/app/services.js - - ms - -
+GET /app/landing/landing.js - - ms - -
+GET /app/landing/controllers/landing.ctrl.js - - ms - -
+GET /app/main/main.js - - ms - -
+GET /app/main/controllers/main.ctrl.js - - ms - -
+GET /app/pet/pet.js - - ms - -
+GET /app/pet/petController.js - - ms - -
+GET /app/pet/newPetController.js - - ms - -
+GET /app/settings/settings.js - - ms - -
+GET /app/settings/settingsController.js - - ms - -
+GET /app/request/request.js - - ms - -
+GET /app/request/requestFormController.js - - ms - -
+GET /app/request/requestConfirmController.js - - ms - -
+GET /assets/img/favicon.ico 200 1.942 ms - 1150
+GET /assets/styles/css/bootstrap-overrides.css 304 6.624 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 10.244 ms - -
+GET /assets/styles/css/layout.css 304 7.981 ms - -
+GET /assets/styles/css/elements.css 304 9.679 ms - -
+GET /assets/styles/css/personal-info.css 304 8.656 ms - -
+GET /assets/styles/css/tables.css 304 7.173 ms - -
+GET /assets/styles/css/main.css 304 8.944 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 200 8.135 ms - 2253
+GET /assets/styles/css/bootstrap-overrides.css 304 6.482 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 10.234 ms - -
+GET /assets/styles/css/layout.css 304 14.690 ms - -
+GET /assets/styles/css/elements.css 304 13.377 ms - -
+GET /assets/styles/css/personal-info.css 304 13.875 ms - -
+GET /assets/styles/css/tables.css 304 14.696 ms - -
+GET /assets/styles/css/main.css 304 22.157 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 2.507 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 11.301 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 15.499 ms - -
+GET /assets/styles/css/layout.css 304 15.884 ms - -
+GET /assets/styles/css/elements.css 304 20.087 ms - -
+GET /assets/styles/css/personal-info.css 304 20.509 ms - -
+GET /assets/styles/css/tables.css 304 20.081 ms - -
+GET /assets/styles/css/main.css 304 15.391 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 1.200 ms - -
+^C%                                                                             23:14 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 304 22.729 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 5.223 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 15.710 ms - -
+GET /assets/styles/css/layout.css 304 5.937 ms - -
+GET /assets/styles/css/elements.css 304 5.792 ms - -
+GET /assets/styles/css/personal-info.css 304 5.560 ms - -
+GET /assets/styles/css/tables.css 304 5.576 ms - -
+GET /assets/styles/css/main.css 304 1.758 ms - -
+GET /bower_components/angular/angular.js 304 12.562 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 12.904 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 13.129 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 13.135 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 12.923 ms - -
+GET /bower_components/restangular/src/restangular.js 304 11.908 ms - -
+GET /app/app.js 304 1.510 ms - -
+GET /app/routes.js 304 4.654 ms - -
+GET /app/landing/landing.js 304 7.601 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 11.830 ms - -
+GET /app/main/main.js 304 14.052 ms - -
+GET /app/main/controllers/main.ctrl.js 304 16.030 ms - -
+GET /angular-services/app/services.js 200 17.287 ms - 723
+GET /app/pet/petController.js - - ms - -
+GET /app/pet/pet.js 304 14.573 ms - -
+GET /app/pet/newPetController.js 304 10.738 ms - -
+GET /app/settings/settings.js 304 10.662 ms - -
+GET /app/settings/settingsController.js 304 8.741 ms - -
+GET /app/request/request.js 304 6.989 ms - -
+GET /app/request/requestFormController.js 304 2.081 ms - -
+GET /app/request/requestConfirmController.js 304 0.857 ms - -
+GET /assets/img/favicon.ico 304 1.534 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 6.036 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 7.869 ms - -
+GET /assets/styles/css/layout.css 304 7.652 ms - -
+GET /assets/styles/css/elements.css 304 8.863 ms - -
+GET /assets/styles/css/personal-info.css 304 20.208 ms - -
+GET /assets/styles/css/tables.css 304 20.510 ms - -
+GET /assets/styles/css/main.css 304 14.583 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 5.610 ms - -
+^C%                                                                             23:16 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 304 17.757 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 9.825 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 13.612 ms - -
+GET /assets/styles/css/layout.css 304 10.507 ms - -
+GET /assets/styles/css/elements.css 304 10.724 ms - -
+GET /assets/styles/css/personal-info.css 304 10.546 ms - -
+GET /assets/styles/css/tables.css 304 7.884 ms - -
+GET /assets/styles/css/main.css 304 3.461 ms - -
+GET /bower_components/angular/angular.js 304 2.680 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 1.877 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 13.893 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 11.647 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 11.100 ms - -
+GET /app/app.js 304 10.893 ms - -
+GET /bower_components/restangular/src/restangular.js 304 12.510 ms - -
+GET /app/routes.js 304 12.337 ms - -
+GET /angular-services/app/services.js 404 4.460 ms - 45
+GET /app/landing/landing.js 304 5.858 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 6.157 ms - -
+GET /app/main/main.js 304 5.742 ms - -
+GET /app/main/controllers/main.ctrl.js 304 5.686 ms - -
+GET /app/pet/pet.js 304 11.550 ms - -
+GET /app/pet/petController.js 304 17.482 ms - -
+GET /app/pet/newPetController.js 304 17.169 ms - -
+GET /app/settings/settings.js 304 11.956 ms - -
+GET /app/settings/settingsController.js 304 15.663 ms - -
+GET /app/request/request.js 304 15.799 ms - -
+GET /app/request/requestFormController.js 304 15.319 ms - -
+GET /app/request/requestConfirmController.js 304 10.583 ms - -
+GET /assets/img/favicon.ico 304 0.856 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 19.327 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 24.973 ms - -
+GET /assets/styles/css/layout.css 304 21.180 ms - -
+GET /assets/styles/css/elements.css 304 20.437 ms - -
+GET /assets/styles/css/personal-info.css 304 18.590 ms - -
+GET /assets/styles/css/tables.css 304 18.404 ms - -
+GET /assets/styles/css/main.css 304 3.878 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 1.129 ms - -
+^C%                                                                             23:17 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 200 23.895 ms - 2946
+GET /assets/styles/css/bootstrap-overrides.css 304 11.454 ms - -
+GET /assets/styles/css/layout.css 304 12.808 ms - -
+GET /assets/styles/css/elements.css 304 9.533 ms - -
+GET /assets/styles/css/personal-info.css 304 9.210 ms - -
+GET /assets/styles/css/tables.css 304 9.105 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 40.534 ms - -
+GET /assets/styles/css/main.css 304 30.469 ms - -
+GET /bower_components/angular/angular.js 304 35.781 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 36.290 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 40.300 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 39.232 ms - -
+GET /bower_components/angular-services/app/services.js 200 45.451 ms - 723
+GET /app/routes.js - - ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 14.418 ms - -
+GET /bower_components/restangular/src/restangular.js 304 9.808 ms - -
+GET /app/app.js 304 8.132 ms - -
+GET /app/landing/landing.js 304 6.205 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 5.590 ms - -
+GET /app/main/main.js 304 1.392 ms - -
+GET /app/main/controllers/main.ctrl.js 304 10.933 ms - -
+GET /app/pet/pet.js 304 11.963 ms - -
+GET /app/pet/petController.js 304 14.904 ms - -
+GET /app/pet/newPetController.js 304 20.430 ms - -
+GET /app/settings/settings.js 304 21.683 ms - -
+GET /app/settings/settingsController.js 304 21.935 ms - -
+GET /app/request/request.js 304 15.028 ms - -
+GET /app/request/requestFormController.js 304 11.595 ms - -
+GET /app/request/requestConfirmController.js 304 10.941 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 2.846 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 6.877 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 11.441 ms - -
+GET /assets/styles/css/layout.css 304 11.609 ms - -
+GET /assets/styles/css/elements.css 304 11.601 ms - -
+GET /assets/styles/css/personal-info.css 304 12.903 ms - -
+GET /assets/styles/css/tables.css 304 14.238 ms - -
+GET /assets/styles/css/main.css 304 8.467 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 1.557 ms - -
+^C%                                                                             23:20 FoodScore - JS feat/crudRoutes* ❯ npm install --dev require
+npm WARN package.json FoodScore@ No repository field.
+npm WARN package.json Dependency 'nodeunit' exists in both dependencies and devDependencies, using 'nodeunit@>0.0.0' from dependencies
+npm WARN package.json Dependency 'uglify-js' exists in both dependencies and devDependencies, using 'uglify-js@1.2.x' from dependencies
+npm WARN package.json Dependency 'nodelint' exists in both dependencies and devDependencies, using 'nodelint@>0.0.0' from dependencies
+npm WARN package.json Dependency 'hashish' exists in both dependencies and devDependencies, using 'hashish@~0.0.4' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.4.0' from dependencies
+npm WARN package.json Dependency 'dryice' exists in both dependencies and devDependencies, using 'dryice@>=0.4.8' from dependencies
+npm WARN package.json Dependency 'expresso' exists in both dependencies and devDependencies, using 'expresso@>=0.6.0' from dependencies
+npm WARN package.json Dependency 'expresso' exists in both dependencies and devDependencies, using 'expresso@=0.7.x' from dependencies
+npm WARN package.json Dependency 'nodeunit' exists in both dependencies and devDependencies, using 'nodeunit@>=0.6.2' from dependencies
+npm WARN package.json Dependency 'ronn' exists in both dependencies and devDependencies, using 'ronn@>=0.3.7' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@0.0.x' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@0.2.4' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.4.8' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@0.1.x' from dependencies
+npm WARN package.json Dependency 'ent' exists in both dependencies and devDependencies, using 'ent@0.0.x' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.4.0' from dependencies
+npm WARN package.json Dependency 'mock-fs' exists in both dependencies and devDependencies, using 'mock-fs@~2.2.0' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.4.0' from dependencies
+npm WARN package.json Dependency 'mkdirp' exists in both dependencies and devDependencies, using 'mkdirp@0' from dependencies
+npm WARN package.json Dependency 'rimraf' exists in both dependencies and devDependencies, using 'rimraf@1' from dependencies
+npm WARN package.json Dependency 'uglify-js' exists in both dependencies and devDependencies, using 'uglify-js@>=1.1.0' from dependencies
+npm WARN package.json Dependency 'should' exists in both dependencies and devDependencies, using 'should@>=0.4.2' from dependencies
+npm WARN package.json Dependency 'mocha' exists in both dependencies and devDependencies, using 'mocha@1.9.x' from dependencies
+npm WARN package.json Dependency 'nodeunit' exists in both dependencies and devDependencies, using 'nodeunit@0.7.x' from dependencies
+npm WARN deprecated tap-runner@0.0.7: this is merged into the 'tap' module now
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.2.4' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.3.3' from dependencies
+npm WARN deprecated tap-consumer@0.0.1: this is merged into the 'tap' module now
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.4.3' from dependencies
+npm WARN package.json Dependency 'tape' exists in both dependencies and devDependencies, using 'tape@~1.0.4' from dependencies
+npm WARN package.json Dependency 'tape' exists in both dependencies and devDependencies, using 'tape@~1.0.2' from dependencies
+npm WARN package.json Dependency 'tape' exists in both dependencies and devDependencies, using 'tape@~1.0.4' from dependencies
+npm WARN package.json Dependency 'tape' exists in both dependencies and devDependencies, using 'tape@~1.0.4' from dependencies
+npm WARN package.json Dependency 'tape' exists in both dependencies and devDependencies, using 'tape@~1.0.4' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.4.0' from dependencies
+npm WARN deprecated tap-results@0.0.2: this is merged into the 'tap' module now
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.4.0' from dependencies
+npm WARN deprecated tap-producer@0.0.1: this is merged into the 'tap' module now
+npm WARN deprecated tap-assert@0.0.10: this is merged into the 'tap' module now
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@0.0.x' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@0.2.4' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.3.0' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.4.8' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@0.1.x' from dependencies
+npm WARN package.json Dependency 'ent' exists in both dependencies and devDependencies, using 'ent@0.0.x' from dependencies
+npm WARN package.json Dependency 'browserify' exists in both dependencies and devDependencies, using 'browserify@latest' from dependencies
+npm WARN package.json Dependency 'mocha-better-spec-reporter' exists in both dependencies and devDependencies, using 'mocha-better-spec-reporter@1.1.0' from dependencies
+npm WARN package.json Dependency 'gulp-mocha' exists in both dependencies and devDependencies, using 'gulp-mocha@1.1.1' from dependencies
+npm WARN package.json Dependency 'gulp-uglify' exists in both dependencies and devDependencies, using 'gulp-uglify@1.0.1' from dependencies
+npm WARN package.json Dependency 'gulp-util' exists in both dependencies and devDependencies, using 'gulp-util@^2.2.14' from dependencies
+npm WARN package.json Dependency 'gulp' exists in both dependencies and devDependencies, using 'gulp@^3.6.2' from dependencies
+npm WARN package.json Dependency 'vinyl-source-stream2' exists in both dependencies and devDependencies, using 'vinyl-source-stream2@^0.1.1' from dependencies
+npm WARN package.json Dependency 'gulp-load-plugins' exists in both dependencies and devDependencies, using 'gulp-load-plugins@^0.5.1' from dependencies
+npm WARN package.json Dependency 'gulp-rename' exists in both dependencies and devDependencies, using 'gulp-rename@^1.2.0' from dependencies
+npm WARN package.json Dependency 'gulp-header' exists in both dependencies and devDependencies, using 'gulp-header@^1.0.2' from dependencies
+npm WARN package.json Dependency 'mocha' exists in both dependencies and devDependencies, using 'mocha@latest' from dependencies
+npm WARN package.json Dependency 'zuul' exists in both dependencies and devDependencies, using 'zuul@latest' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.4.0' from dependencies
+npm WARN package.json Dependency 'mock-fs' exists in both dependencies and devDependencies, using 'mock-fs@~2.2.0' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.2.4' from dependencies
+npm WARN package.json Dependency 'tap' exists in both dependencies and devDependencies, using 'tap@~0.4.3' from dependencies
+npm WARN package.json Dependency 'tape' exists in both dependencies and devDependencies, using 'tape@~1.0.4' from dependencies
+npm WARN package.json Dependency 'tape' exists in both dependencies and devDependencies, using 'tape@~1.0.2' from dependencies
+^C%                                                                             23:20 FoodScore - JS feat/crudRoutes* ❯ npm install --dev requirejs
+npm WARN package.json FoodScore@ No repository field.
+npm WARN unmet dependency /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/require/node_modules/uglify-js/node_modules/async/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito requires uglify-js@'~1.1.1' but will load
+npm WARN unmet dependency /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/require/node_modules/uglify-js/node_modules/async/node_modules/uglify-js,
+npm WARN unmet dependency which is version 1.2.6
+npm WARN unmet dependency /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/require/node_modules/uglify-js/node_modules/async/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/tap requires mkdirp@'~0.3' but will load
+npm WARN unmet dependency /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/require/node_modules/uglify-js/node_modules/async/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp,
+npm WARN unmet dependency which is version 0.5.0
+npm WARN unmet dependency /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/require/node_modules/uglify-js/node_modules/optimist/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito requires uglify-js@'~1.1.1' but will load
+npm WARN unmet dependency /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/require/node_modules/uglify-js,
+npm WARN unmet dependency which is version 2.3.0
+npm WARN unmet dependency /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/require/node_modules/uglify-js/node_modules/optimist/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/tap requires mkdirp@'~0.3' but will load
+npm WARN unmet dependency /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/require/node_modules/uglify-js/node_modules/optimist/node_modules/tap/node_modules/mkdirp,
+npm WARN unmet dependency which is version 0.5.0
+npm WARN unmet dependency /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/require/node_modules/uglify-js/node_modules/optimist/node_modules/tap/node_modules/glob/node_modules/minimatch/node_modules/sigmund/node_modules/tap requires mkdirp@'~0.3' but will load
+npm WARN unmet dependency /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/require/node_modules/uglify-js/node_modules/optimist/node_modules/tap/node_modules/mkdirp,
+npm WARN unmet dependency which is version 0.5.0
+requirejs@2.1.15 node_modules/requirejs
+23:20 FoodScore - JS feat/crudRoutes* ❯ node server/server.js      
+Listening on http://localhost:9000
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 46.438 ms - -
+^C%                                                                             23:24 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 200 22.163 ms - 3613
+GET /assets/styles/css/bootstrap-overrides.css 304 29.836 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 36.071 ms - -
+GET /assets/styles/css/layout.css 304 39.872 ms - -
+GET /assets/styles/css/elements.css 304 47.399 ms - -
+GET /bower_components/angular-services/app/services/auth.srv.js 200 41.524 ms - 2650
+GET /assets/styles/css/main.css - - ms - -
+GET /bower_components/angular-services/app/services/currentpets.srv.js 200 48.325 ms - 1907
+GET /bower_components/angular/angular.js - - ms - -
+GET /assets/styles/css/personal-info.css 304 47.443 ms - -
+GET /assets/styles/css/tables.css 304 43.806 ms - -
+GET /bower_components/angular-services/app/services/currentuser.srv.js 200 35.694 ms - 1697
+GET /bower_components/angular-cookies/angular-cookies.min.js - - ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 36.721 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 29.390 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 28.736 ms - -
+GET /bower_components/restangular/src/restangular.js 304 27.861 ms - -
+GET /app/app.js 304 28.791 ms - -
+GET /app/routes.js 304 27.329 ms - -
+GET /bower_components/angular-services/app/services.js 304 37.052 ms - -
+GET /bower_components/angular-services/app/services/requestService.srv.js 404 34.404 ms - 81
+GET /bower_components/angular-services/app/services/restService.srv.js 404 40.385 ms - 78
+GET /bower_components/angular-services/app/services/photo.srv.js 200 46.410 ms - 531
+GET /app/landing/landing.js 304 37.030 ms - -
+GET /app/landing/controllers/landing.ctrl.js - - ms - -
+GET /bower_components/angular-services/app/services/vaccine.srv.js 200 42.307 ms - 408
+GET /app/pet/pet.js - - ms - -
+GET /app/main/main.js 304 13.650 ms - -
+GET /app/main/controllers/main.ctrl.js 304 12.304 ms - -
+GET /app/pet/petController.js 304 16.450 ms - -
+GET /app/pet/newPetController.js 304 16.106 ms - -
+GET /app/settings/settings.js 304 16.869 ms - -
+GET /app/settings/settingsController.js 304 18.503 ms - -
+GET /app/request/request.js 304 15.469 ms - -
+GET /app/request/requestFormController.js 304 15.061 ms - -
+GET /app/request/requestConfirmController.js 304 10.697 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 8.057 ms - -
+^C%                                                                             23:25 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 200 25.891 ms - 3605
+GET /assets/styles/css/bootstrap-overrides.css 304 20.749 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 34.069 ms - -
+GET /assets/styles/css/layout.css 304 27.652 ms - -
+GET /assets/styles/css/elements.css 304 32.114 ms - -
+GET /assets/styles/css/personal-info.css 304 33.751 ms - -
+GET /bower_components/angular-services/app/services/requestService.js 200 37.335 ms - 1446
+GET /assets/styles/css/main.css - - ms - -
+GET /assets/styles/css/tables.css 304 17.420 ms - -
+GET /bower_components/angular/angular.js 304 19.744 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 20.495 ms - -
+GET /bower_components/angular-services/app/services/restService.js 200 30.652 ms - 2459
+GET /bower_components/lodash/dist/lodash.compat.js - - ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 32.731 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 29.047 ms - -
+GET /bower_components/restangular/src/restangular.js 304 28.222 ms - -
+GET /app/routes.js 304 28.746 ms - -
+GET /app/app.js 304 28.276 ms - -
+GET /bower_components/angular-services/app/services.js 304 16.663 ms - -
+GET /bower_components/angular-services/app/services/auth.srv.js 304 16.583 ms - -
+GET /bower_components/angular-services/app/services/currentpets.srv.js 304 15.780 ms - -
+GET /bower_components/angular-services/app/services/currentuser.srv.js 304 13.347 ms - -
+GET /bower_components/angular-services/app/services/photo.srv.js 304 14.776 ms - -
+GET /bower_components/angular-services/app/services/vaccine.srv.js 304 13.222 ms - -
+GET /app/landing/landing.js 304 11.322 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 10.523 ms - -
+GET /app/main/main.js 304 11.632 ms - -
+GET /app/main/controllers/main.ctrl.js 304 10.743 ms - -
+GET /app/pet/pet.js 304 11.489 ms - -
+GET /app/pet/petController.js 304 8.920 ms - -
+GET /app/pet/newPetController.js 304 7.551 ms - -
+GET /app/settings/settings.js 304 9.404 ms - -
+GET /app/settings/settingsController.js 304 12.382 ms - -
+GET /app/request/request.js 304 12.933 ms - -
+GET /app/request/requestFormController.js 304 11.737 ms - -
+GET /app/request/requestConfirmController.js 304 11.944 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 1.018 ms - -
+np^C%                                                                           23:26 FoodScore - JS feat/crudRoutes* ❯ npm install -g browserify
+/usr/local/bin/browserify -> /usr/local/lib/node_modules/browserify/bin/cmd.js
+browserify@6.1.0 /usr/local/lib/node_modules/browserify
+├── https-browserify@0.0.0
+├── tty-browserify@0.0.0
+├── isarray@0.0.1
+├── path-browserify@0.0.0
+├── inherits@2.0.1
+├── process@0.8.0
+├── builtins@0.0.7
+├── os-browserify@0.1.2
+├── string_decoder@0.10.31
+├── constants-browserify@0.0.1
+├── commondir@0.0.1
+├── stream-browserify@1.0.0
+├── defined@0.0.0
+├── domain-browser@1.1.3
+├── shell-quote@0.0.1
+├── shallow-copy@0.0.1
+├── xtend@3.0.0
+├── duplexer2@0.0.2
+├── deep-equal@0.2.1
+├── assert@1.1.2
+├── querystring-es3@0.2.1
+├── punycode@1.2.4
+├── url@0.10.1
+├── through2@1.1.1 (xtend@4.0.0)
+├── util@0.10.3
+├── events@1.0.2
+├── console-browserify@1.1.0 (date-now@0.1.4)
+├── timers-browserify@1.1.0 (process@0.5.2)
+├── subarg@1.0.0 (minimist@1.1.0)
+├── browser-resolve@1.3.2
+├── resolve@0.7.4
+├── parents@0.0.3 (path-platform@0.0.1)
+├── vm-browserify@0.0.4 (indexof@0.0.1)
+├── concat-stream@1.4.6 (typedarray@0.0.6)
+├── readable-stream@1.1.13 (core-util-is@1.0.1)
+├── deps-sort@1.3.5 (minimist@0.2.0, through2@0.5.1)
+├── http-browserify@1.7.0 (Base64@0.2.1)
+├── shasum@1.0.0 (json-stable-stringify@0.0.1)
+├── JSONStream@0.8.4 (through@2.3.6, jsonparse@0.0.5)
+├── buffer@2.7.0 (ieee754@1.1.4, base64-js@0.0.7, is-array@1.0.1)
+├── glob@4.0.6 (graceful-fs@3.0.4, once@1.3.1, minimatch@1.0.0)
+├── syntax-error@1.1.1 (esprima-fb@3001.1.0-dev-harmony-fb)
+├── labeled-stream-splicer@1.0.0 (stream-splicer@1.3.1)
+├── browser-pack@3.2.0 (through2@0.5.1, combine-source-map@0.3.0)
+├── umd@2.1.0 (through@2.3.6, rfile@1.0.0, ruglify@1.0.0, uglify-js@2.4.15)
+├── crypto-browserify@3.2.8 (ripemd160@0.2.0, pbkdf2-compat@2.0.1, sha.js@2.2.6)
+├── insert-module-globals@6.1.0 (process@0.6.0, through@2.3.6, JSONStream@0.7.4, lexical-scope@1.1.0)
+├── browserify-zlib@0.1.4 (pako@0.2.5)
+└── module-deps@3.5.6 (minimist@0.2.0, parents@1.0.0, subarg@0.0.1, stream-combiner2@1.0.2, JSONStream@0.7.4, through2@0.4.2, detective@3.1.0)
+23:27 FoodScore - JS feat/crudRoutes* ❯ node server/server.js    
+Listening on http://localhost:9000
+GET / 200 21.427 ms - 3604
+GET /assets/styles/css/bootstrap-overrides.css 304 5.947 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 15.164 ms - -
+GET /assets/styles/css/layout.css 304 7.630 ms - -
+GET /assets/styles/css/elements.css 304 7.673 ms - -
+GET /assets/styles/css/personal-info.css 304 7.812 ms - -
+GET /assets/styles/css/tables.css 304 7.635 ms - -
+GET /assets/styles/css/main.css 304 3.775 ms - -
+GET /bower_components/angular/angular.js 304 8.898 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 33.254 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 33.154 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 36.991 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 42.513 ms - -
+GET /bower_components/restangular/src/restangular.js 304 47.133 ms - -
+GET /app/app.js 304 47.427 ms - -
+GET /app/routes.js 304 25.233 ms - -
+GET /bower_components/angular-services/app/services.js 304 24.672 ms - -
+GET /bower_components/angular-services/app/services/auth.srv.js 304 27.027 ms - -
+GET /bower_components/angular-services/app/services/currentpets.srv.js 304 17.830 ms - -
+GET /bower_components/angular-services/app/services/currentuser.srv.js 304 16.072 ms - -
+GET /bower_components/angular-services/app/services/photo.srv.js 304 14.183 ms - -
+GET /bower_components/angular-services/app/services/requestService.js 304 10.850 ms - -
+GET /bower_components/angular-services/app/services/restService.js 304 19.654 ms - -
+GET /bower_components/angular-services/app/services/vaccine.srv.js 304 20.779 ms - -
+GET /app/landing/landing.js 304 39.456 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 37.424 ms - -
+GET /app/main/main.js 304 34.003 ms - -
+GET /app/main/controllers/main.ctrl.js 304 30.740 ms - -
+GET /app/pet/pet.js 304 30.850 ms - -
+GET /app/pet/petController.js 304 14.865 ms - -
+GET /app/pet/newPetController.js 304 6.818 ms - -
+GET /app/settings/settings.js 304 2.728 ms - -
+GET /app/settings/settingsController.js 304 5.120 ms - -
+GET /app/request/request.js 304 6.758 ms - -
+GET /app/request/requestFormController.js 304 6.589 ms - -
+GET /app/request/requestConfirmController.js 304 6.079 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 6.087 ms - -
+^C%                                                                             23:30 FoodScore - JS feat/crudRoutes* ❯ ls
+README.md    client       package.json views
+bower.json   node_modules server
+23:30 FoodScore - JS feat/crudRoutes* ❯ cd client
+23:30 client feat/crudRoutes* ❯ ls
+bower_components user
+23:30 client feat/crudRoutes* ❯ cd bower_components 
+23:30 bower_components feat/crudRoutes* ❯ ls
+angular            angular-services   font-awesome-css   lodash
+angular-bootstrap  angular-ui-router  jasmine            ngstorage
+angular-cookies    bootstrap-css-only karma-jasmine      restangular
+23:30 bower_components feat/crudRoutes* ❯ cd angular-services 
+23:30 angular-services feat/crudRoutes* ❯ ls
+app          bower.json   dist         gulpfile.js  package.json
+23:30 angular-services feat/crudRoutes* ❯ browserify app/services.js 
+Error: Cannot find module '../../bower_components/ngstorage/ngStorage.min.js' from '/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/client/bower_components/angular-services/app'
+    at /usr/local/lib/node_modules/browserify/node_modules/resolve/lib/async.js:42:25
+    at load (/usr/local/lib/node_modules/browserify/node_modules/resolve/lib/async.js:60:43)
+    at /usr/local/lib/node_modules/browserify/node_modules/resolve/lib/async.js:66:22
+    at /usr/local/lib/node_modules/browserify/node_modules/resolve/lib/async.js:21:47
+    at Object.oncomplete (fs.js:107:15)
+23:30 angular-services feat/crudRoutes* ❯ browserify -o app/services.js
+23:30 angular-services feat/crudRoutes* ❯ browserify -o app/services.js app/bundle.js
+Error: Cannot find module '/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/client/bower_components/angular-services/app/bundle.js' from '/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/client/bower_components/angular-services'
+    at /usr/local/lib/node_modules/browserify/node_modules/resolve/lib/async.js:42:25
+    at load (/usr/local/lib/node_modules/browserify/node_modules/resolve/lib/async.js:60:43)
+    at /usr/local/lib/node_modules/browserify/node_modules/resolve/lib/async.js:66:22
+    at /usr/local/lib/node_modules/browserify/node_modules/resolve/lib/async.js:21:47
+    at Object.oncomplete (fs.js:107:15)
+23:31 angular-services feat/crudRoutes* ❯ browserify app/services.js -o app/bundle.js
+23:31 angular-services feat/crudRoutes* ❯ node server/server.js        
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module '/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/client/bower_components/angular-services/server/server.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:906:3
+23:32 angular-services feat/crudRoutes* ❯ cd ..
+23:33 bower_components feat/crudRoutes* ❯ ls
+angular            angular-services   font-awesome-css   lodash
+angular-bootstrap  angular-ui-router  jasmine            ngstorage
+angular-cookies    bootstrap-css-only karma-jasmine      restangular
+23:33 bower_components feat/crudRoutes* ❯ cd ..
+23:33 client feat/crudRoutes* ❯ ls
+bower_components user
+23:33 client feat/crudRoutes* ❯ cd ..
+23:33 FoodScore - JS feat/crudRoutes* ❯ ls
+README.md    client       package.json views
+bower.json   node_modules server
+23:33 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 200 23.265 ms - 3706
+GET /assets/styles/css/bootstrap-overrides.css 304 11.465 ms - -
+GET /assets/styles/css/layout.css 304 15.083 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 22.364 ms - -
+GET /assets/styles/css/elements.css 304 18.072 ms - -
+GET /assets/styles/css/personal-info.css 304 22.054 ms - -
+GET /assets/styles/css/tables.css 304 22.525 ms - -
+GET /assets/styles/css/main.css 304 26.303 ms - -
+GET /bower_components/angular-services/app/bundle.js 200 40.549 ms - 498
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js - - ms - -
+GET /bower_components/angular/angular.js 304 32.865 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 48.539 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 59.475 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 52.475 ms - -
+GET /app/app.js 304 41.303 ms - -
+GET /bower_components/restangular/src/restangular.js 304 52.403 ms - -
+GET /app/routes.js 304 27.517 ms - -
+GET /app/landing/landing.js 304 18.910 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 21.403 ms - -
+GET /app/main/main.js 304 24.952 ms - -
+GET /app/main/controllers/main.ctrl.js 304 35.348 ms - -
+GET /app/pet/pet.js 304 33.480 ms - -
+GET /app/pet/petController.js 304 33.548 ms - -
+GET /app/pet/newPetController.js 304 34.760 ms - -
+GET /app/settings/settings.js 304 31.568 ms - -
+GET /app/settings/settingsController.js 304 28.962 ms - -
+GET /app/request/request.js 304 17.093 ms - -
+GET /app/request/requestFormController.js 304 14.292 ms - -
+GET /app/request/requestConfirmController.js 304 12.469 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 1.463 ms - -
+^C%                                                                             23:35 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 200 31.075 ms - 3688
+GET /assets/styles/css/bootstrap-overrides.css 304 20.023 ms - -
+GET /assets/styles/css/layout.css 304 21.269 ms - -
+GET /assets/styles/css/elements.css 304 22.054 ms - -
+GET /assets/styles/css/personal-info.css 304 21.853 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 30.142 ms - -
+GET /assets/styles/css/tables.css 304 29.062 ms - -
+GET /assets/styles/css/main.css 304 26.244 ms - -
+GET /bower_components/angular/angular.js 304 21.965 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 16.973 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 17.827 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 18.467 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 18.460 ms - -
+GET /bower_components/restangular/src/restangular.js 304 8.836 ms - -
+GET /app/app.js 304 10.236 ms - -
+GET /app/routes.js 304 12.986 ms - -
+GET /bower_components/angular-services/app/bundle.js 304 15.050 ms - -
+GET /bower_components/angular-services/app/services/auth.srv.js 304 17.541 ms - -
+GET /bower_components/angular-services/app/services/currentpets.srv.js 304 15.633 ms - -
+GET /bower_components/angular-services/app/services.js 200 18.663 ms - 723
+GET /bower_components/angular-services/app/services/currentuser.srv.js 304 15.036 ms - -
+GET /bower_components/angular-services/app/services/photo.srv.js - - ms - -
+GET /bower_components/angular-services/app/services/requestService.js 304 9.804 ms - -
+GET /bower_components/angular-services/app/services/restService.js 304 9.340 ms - -
+GET /app/landing/landing.js 304 5.283 ms - -
+GET /bower_components/angular-services/app/services/vaccine.srv.js 304 7.236 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 5.087 ms - -
+GET /app/main/main.js 304 7.611 ms - -
+GET /app/main/controllers/main.ctrl.js 304 8.404 ms - -
+GET /app/pet/pet.js 304 9.169 ms - -
+GET /app/pet/petController.js 304 8.607 ms - -
+GET /app/pet/newPetController.js 304 13.679 ms - -
+GET /app/settings/settings.js 304 19.696 ms - -
+GET /app/settings/settingsController.js 304 24.825 ms - -
+GET /app/request/request.js 304 26.118 ms - -
+GET /app/request/requestFormController.js 304 25.832 ms - -
+GET /app/request/requestConfirmController.js 304 21.661 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 1.564 ms - -
+^C%                                                                             23:40 FoodScore - JS feat/crudRoutes* ❯ node server/server.js 
+Listening on http://localhost:9000
+GET / 304 18.394 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 9.433 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 16.219 ms - -
+GET /assets/styles/css/layout.css 304 14.454 ms - -
+GET /assets/styles/css/elements.css 304 14.161 ms - -
+GET /assets/styles/css/personal-info.css 304 14.112 ms - -
+GET /assets/styles/css/tables.css 304 13.995 ms - -
+GET /assets/styles/css/main.css 304 4.984 ms - -
+GET /bower_components/angular/angular.js 304 17.274 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 20.077 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 21.917 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 25.884 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 30.026 ms - -
+GET /bower_components/restangular/src/restangular.js 304 35.900 ms - -
+GET /app/app.js 304 22.673 ms - -
+GET /app/routes.js 304 21.128 ms - -
+GET /bower_components/angular-services/app/bundle.js 304 24.799 ms - -
+GET /bower_components/angular-services/app/services.js 304 23.394 ms - -
+GET /bower_components/angular-services/app/services/auth.srv.js 304 19.739 ms - -
+GET /bower_components/angular-services/app/services/currentpets.srv.js 304 16.466 ms - -
+GET /bower_components/angular-services/app/services/currentuser.srv.js 304 17.620 ms - -
+GET /bower_components/angular-services/app/services/photo.srv.js 304 19.643 ms - -
+GET /bower_components/angular-services/app/services/requestService.js 304 20.521 ms - -
+GET /bower_components/angular-services/app/services/restService.js 304 17.081 ms - -
+GET /app/landing/landing.js 304 15.162 ms - -
+GET /bower_components/angular-services/app/services/vaccine.srv.js 304 17.720 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 12.792 ms - -
+GET /app/main/main.js 304 12.292 ms - -
+GET /app/main/controllers/main.ctrl.js 304 11.978 ms - -
+GET /app/pet/pet.js 304 9.926 ms - -
+GET /app/pet/petController.js 304 16.767 ms - -
+GET /app/pet/newPetController.js 304 18.018 ms - -
+GET /app/settings/settings.js 304 19.138 ms - -
+GET /app/settings/settingsController.js 304 17.074 ms - -
+GET /app/request/request.js 304 16.572 ms - -
+GET /app/request/requestFormController.js 304 12.686 ms - -
+GET /app/request/requestConfirmController.js 304 7.500 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 5.599 ms - -
+GET /assets/img/favicon.ico 304 2.542 ms - -
+^C%                                                                             23:46 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 200 19.586 ms - 3700
+GET /assets/styles/css/bootstrap-overrides.css 304 13.293 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 22.861 ms - -
+GET /assets/styles/css/layout.css 304 22.431 ms - -
+GET /assets/styles/css/elements.css 304 22.378 ms - -
+GET /assets/styles/css/personal-info.css 304 22.406 ms - -
+GET /assets/styles/css/tables.css 304 22.109 ms - -
+GET /assets/styles/css/main.css 304 10.240 ms - -
+GET /bower_components/angular/angular.js 304 13.863 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 7.180 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 7.216 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 13.735 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 15.838 ms - -
+GET /bower_components/restangular/src/restangular.js 304 18.014 ms - -
+GET /bower_components/angular-services/dist/services.js 200 20.684 ms - 14113
+GET /app/landing/controllers/landing.ctrl.js - - ms - -
+GET /app/app.js 304 9.862 ms - -
+GET /app/routes.js 304 9.505 ms - -
+GET /app/landing/landing.js 304 9.224 ms - -
+GET /app/main/main.js 304 6.656 ms - -
+GET /app/main/controllers/main.ctrl.js 304 4.487 ms - -
+GET /app/pet/pet.js 304 7.838 ms - -
+GET /app/pet/petController.js 304 9.577 ms - -
+GET /app/pet/newPetController.js 304 15.517 ms - -
+GET /app/settings/settings.js 304 15.990 ms - -
+GET /app/settings/settingsController.js 304 18.631 ms - -
+GET /app/request/request.js 304 19.831 ms - -
+GET /app/request/requestFormController.js 304 10.035 ms - -
+GET /app/request/requestConfirmController.js 304 12.505 ms - -
+GET /app/landing/templates/landing.tpl.html 200 2.123 ms - 3104
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 5.098 ms - -
+GET /assets/img/logo_text.png 200 24.341 ms - 13561
+GET /assets/img/puppy_kitten_splash.png 200 27.042 ms - 362274
+GET /assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0 200 6.354 ms - 83760
+^C%                                                                             23:49 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 200 25.199 ms - 3683
+GET /assets/styles/css/bootstrap-overrides.css 304 5.444 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 17.254 ms - -
+GET /assets/styles/css/layout.css 304 16.251 ms - -
+GET /assets/styles/css/elements.css 304 16.858 ms - -
+GET /assets/styles/css/personal-info.css 304 18.160 ms - -
+GET /angular-services/dist/services.js 200 23.279 ms - 14113
+GET /assets/styles/css/tables.css 304 10.018 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js - - ms - -
+GET /assets/styles/css/main.css 304 12.497 ms - -
+GET /bower_components/angular/angular.js 304 11.398 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 9.822 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 8.338 ms - -
+GET /bower_components/restangular/src/restangular.js 304 3.671 ms - -
+GET /app/app.js 304 2.819 ms - -
+GET /app/routes.js 304 8.707 ms - -
+GET /app/landing/landing.js 304 8.459 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 8.446 ms - -
+GET /app/main/main.js 304 14.560 ms - -
+GET /app/main/controllers/main.ctrl.js 304 17.345 ms - -
+GET /app/pet/pet.js 304 19.754 ms - -
+GET /app/pet/petController.js 304 13.686 ms - -
+GET /app/pet/newPetController.js 304 14.409 ms - -
+GET /app/settings/settings.js 304 14.341 ms - -
+GET /app/settings/settingsController.js 304 11.781 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 30.141 ms - -
+GET /app/request/request.js 304 2.273 ms - -
+GET /app/request/requestFormController.js 304 1.573 ms - -
+GET /app/request/requestConfirmController.js 304 3.068 ms - -
+GET /app/landing/templates/landing.tpl.html 304 1.011 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 0.778 ms - -
+GET /assets/img/logo_text.png 304 0.919 ms - -
+GET /assets/img/puppy_kitten_splash.png 304 3.003 ms - -
+GET /assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0 304 3.012 ms - -
+^[[A^C%                                                                         23:57 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 200 22.241 ms - 2862
+GET /assets/styles/css/bootstrap-overrides.css 304 9.099 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 26.929 ms - -
+GET /assets/styles/css/layout.css 304 12.039 ms - -
+GET /assets/styles/css/elements.css 304 13.120 ms - -
+GET /assets/styles/css/main.css 304 13.940 ms - -
+GET /assets/styles/css/personal-info.css 304 18.415 ms - -
+GET /assets/styles/css/tables.css 304 20.445 ms - -
+GET /bower_components/angular/angular.js 304 20.662 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 36.641 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 35.579 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 37.760 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 33.135 ms - -
+GET /bower_components/restangular/src/restangular.js 304 33.655 ms - -
+GET /app/app.js 304 30.195 ms - -
+GET /app/routes.js 304 6.651 ms - -
+GET /angular-services/dist/services.js 304 7.838 ms - -
+GET /app/landing/landing.js 304 6.400 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 7.888 ms - -
+GET /app/main/main.js 304 6.365 ms - -
+GET /app/main/controllers/main.ctrl.js 304 8.000 ms - -
+GET /app/pet/pet.js 304 11.191 ms - -
+GET /app/pet/petController.js 304 13.620 ms - -
+GET /app/pet/newPetController.js 304 16.505 ms - -
+GET /app/settings/settings.js 304 15.960 ms - -
+GET /app/settings/settingsController.js 304 18.170 ms - -
+GET /app/request/request.js 304 21.998 ms - -
+GET /app/request/requestFormController.js 304 20.071 ms - -
+GET /app/request/requestConfirmController.js 304 12.195 ms - -
+GET /app/landing/templates/landing.tpl.html 200 1.566 ms - 2483
+GET /assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0 304 1.825 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 1.107 ms - -
+GET / 304 1.348 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 2.986 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 14.791 ms - -
+GET /assets/styles/css/layout.css 304 10.251 ms - -
+GET /assets/styles/css/elements.css 304 12.304 ms - -
+GET /assets/styles/css/personal-info.css 304 13.070 ms - -
+GET /assets/styles/css/main.css 304 10.444 ms - -
+GET /assets/styles/css/tables.css 304 9.903 ms - -
+GET /bower_components/angular/angular.js 304 7.439 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 7.614 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 12.392 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 6.646 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 5.140 ms - -
+GET /app/app.js 304 5.080 ms - -
+GET /bower_components/restangular/src/restangular.js 304 6.064 ms - -
+GET /app/routes.js 304 6.581 ms - -
+GET /app/landing/landing.js 304 14.511 ms - -
+GET /angular-services/dist/services.js 304 16.001 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 16.118 ms - -
+GET /app/main/main.js 304 22.115 ms - -
+GET /app/main/controllers/main.ctrl.js 304 26.517 ms - -
+GET /app/pet/pet.js 304 28.281 ms - -
+GET /app/pet/petController.js 304 13.046 ms - -
+GET /app/pet/newPetController.js 304 10.519 ms - -
+GET /app/settings/settings.js 304 10.024 ms - -
+GET /app/settings/settingsController.js 304 10.630 ms - -
+GET /app/request/request.js 304 10.310 ms - -
+GET /app/request/requestFormController.js 304 8.823 ms - -
+GET /app/request/requestConfirmController.js 304 4.172 ms - -
+GET /app/landing/templates/landing.tpl.html 200 3.679 ms - 2406
+GET /assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0 304 2.336 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 2.701 ms - -
+POST /user/login 404 3.751 ms - 24
+^C%                                                                             0:25 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 304 19.250 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 10.257 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 16.301 ms - -
+GET /assets/styles/css/layout.css 304 11.725 ms - -
+GET /assets/styles/css/elements.css 304 11.718 ms - -
+GET /assets/styles/css/personal-info.css 304 11.630 ms - -
+GET /assets/styles/css/tables.css 304 14.255 ms - -
+GET /assets/styles/css/main.css 304 11.203 ms - -
+GET /bower_components/angular/angular.js 304 18.789 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 20.416 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 19.066 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 18.886 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 18.434 ms - -
+GET /app/app.js 304 5.392 ms - -
+GET /bower_components/restangular/src/restangular.js 304 7.576 ms - -
+GET /app/routes.js 304 6.090 ms - -
+GET /angular-services/dist/services.js 304 9.998 ms - -
+GET /app/landing/landing.js 304 10.063 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 16.681 ms - -
+GET /app/main/main.js 304 15.820 ms - -
+GET /app/main/controllers/main.ctrl.js 304 16.656 ms - -
+GET /app/pet/pet.js 304 16.602 ms - -
+GET /app/pet/petController.js 304 12.700 ms - -
+GET /app/pet/newPetController.js 304 15.087 ms - -
+GET /app/settings/settings.js 304 13.414 ms - -
+GET /app/settings/settingsController.js 304 6.948 ms - -
+GET /app/request/request.js 304 3.482 ms - -
+GET /app/request/requestFormController.js 304 3.494 ms - -
+GET /app/request/requestConfirmController.js 304 3.572 ms - -
+GET /app/landing/templates/landing.tpl.html 304 0.867 ms - -
+GET /assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0 304 0.834 ms - -
+POST /user/signup 404 5.045 ms - 25
+GET /assets/styles/css/bootstrap-overrides.css 304 11.609 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 13.492 ms - -
+GET /assets/styles/css/layout.css 304 15.731 ms - -
+GET /assets/styles/css/elements.css 304 16.315 ms - -
+GET /assets/styles/css/personal-info.css 304 18.269 ms - -
+GET /assets/styles/css/tables.css 304 20.962 ms - -
+GET /assets/styles/css/main.css 304 13.241 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 1.182 ms - -
+^C%                                                                                                                                                                             0:30 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 304 19.059 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 13.759 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 19.717 ms - -
+GET /assets/styles/css/layout.css 304 15.396 ms - -
+GET /assets/styles/css/elements.css 304 12.752 ms - -
+GET /assets/styles/css/personal-info.css 304 11.610 ms - -
+GET /assets/styles/css/tables.css 304 9.557 ms - -
+GET /assets/styles/css/main.css 304 15.013 ms - -
+GET /bower_components/angular/angular.js 304 10.204 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 21.739 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 21.397 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 22.126 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 21.907 ms - -
+GET /bower_components/restangular/src/restangular.js 304 36.105 ms - -
+GET /app/routes.js 304 17.164 ms - -
+GET /app/app.js 200 27.544 ms - 1422
+GET /angular-services/dist/services.js 304 21.173 ms - -
+GET /app/main/controllers/main.ctrl.js - - ms - -
+GET /app/landing/landing.js 304 24.618 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 25.410 ms - -
+GET /app/main/main.js 304 16.571 ms - -
+GET /app/pet/pet.js 304 13.247 ms - -
+GET /app/pet/petController.js 304 15.238 ms - -
+GET /app/pet/newPetController.js 304 24.230 ms - -
+GET /app/settings/settings.js 304 30.638 ms - -
+GET /app/settings/settingsController.js 304 28.872 ms - -
+GET /app/request/request.js 304 29.377 ms - -
+GET /app/request/requestFormController.js 304 24.011 ms - -
+GET /app/request/requestConfirmController.js 304 11.915 ms - -
+GET /app/landing/templates/landing.tpl.html 200 1.933 ms - 2412
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 10.748 ms - -
+GET /assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0 304 9.303 ms - -
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+    ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:17:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:30 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+^C%                                                                                                                                                                             0:33 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+yolo
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:33 FoodScore - JS feat/crudRoutes* ❯ 
+0:34 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 304 21.721 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 8.034 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 16.549 ms - -
+GET /assets/styles/css/layout.css 304 9.093 ms - -
+GET /assets/styles/css/elements.css 304 8.900 ms - -
+GET /assets/styles/css/personal-info.css 304 8.736 ms - -
+GET /assets/styles/css/tables.css 304 8.656 ms - -
+GET /assets/styles/css/main.css 304 1.692 ms - -
+GET /bower_components/angular/angular.js 304 15.566 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 16.102 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 16.373 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 16.975 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 16.702 ms - -
+GET /bower_components/restangular/src/restangular.js 304 14.811 ms - -
+GET /app/app.js 304 8.255 ms - -
+GET /app/routes.js 304 11.047 ms - -
+GET /angular-services/dist/services.js 304 6.549 ms - -
+GET /app/landing/landing.js 304 5.722 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 6.570 ms - -
+GET /app/main/main.js 304 8.843 ms - -
+GET /app/main/controllers/main.ctrl.js 304 11.017 ms - -
+GET /app/pet/pet.js 304 11.816 ms - -
+GET /app/pet/petController.js 304 8.961 ms - -
+GET /app/pet/newPetController.js 304 5.879 ms - -
+GET /app/settings/settings.js 304 4.318 ms - -
+GET /app/settings/settingsController.js 304 4.155 ms - -
+GET /app/request/request.js 304 4.208 ms - -
+GET /app/request/requestFormController.js 304 0.744 ms - -
+GET /app/request/requestConfirmController.js 304 0.836 ms - -
+GET /app/landing/templates/landing.tpl.html 304 1.200 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 1.533 ms - -
+GET /assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0 304 0.958 ms - -
+yolo
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:34 FoodScore - JS feat/crudRoutes* ❯ 
+0:34 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 304 20.979 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 15.105 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 17.174 ms - -
+GET /assets/styles/css/layout.css 304 16.050 ms - -
+GET /assets/styles/css/elements.css 304 15.980 ms - -
+GET /assets/styles/css/personal-info.css 304 10.407 ms - -
+GET /assets/styles/css/tables.css 304 7.268 ms - -
+GET /assets/styles/css/main.css 304 4.681 ms - -
+GET /bower_components/angular/angular.js 304 12.908 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 13.516 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 13.816 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 20.005 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 24.079 ms - -
+GET /bower_components/restangular/src/restangular.js 304 24.610 ms - -
+GET /app/app.js 304 26.650 ms - -
+GET /app/routes.js 304 23.504 ms - -
+GET /angular-services/dist/services.js 304 23.730 ms - -
+GET /app/landing/landing.js 304 22.318 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 19.181 ms - -
+GET /app/main/main.js 304 17.265 ms - -
+GET /app/main/controllers/main.ctrl.js 304 2.859 ms - -
+GET /app/pet/pet.js 304 8.407 ms - -
+GET /app/pet/petController.js 304 6.566 ms - -
+GET /app/pet/newPetController.js 304 6.762 ms - -
+GET /app/settings/settings.js 304 5.868 ms - -
+GET /app/settings/settingsController.js 304 5.646 ms - -
+GET /app/request/request.js 304 5.674 ms - -
+GET /app/request/requestFormController.js 304 5.227 ms - -
+GET /app/request/requestConfirmController.js 304 4.354 ms - -
+GET /app/landing/templates/landing.tpl.html 200 3.575 ms - 2412
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 1.381 ms - -
+GET /assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0 304 1.755 ms - -
+yolo
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:34 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:36 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+asdfgad
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:41 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+asdfgad
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:42 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+12345
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:43 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+12345
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:52 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+12345
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:53 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+12345
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:54 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+12345
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:56 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 304 11.778 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 5.042 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 14.094 ms - -
+GET /assets/styles/css/layout.css 304 13.657 ms - -
+GET /assets/styles/css/elements.css 304 13.639 ms - -
+GET /assets/styles/css/personal-info.css 304 13.683 ms - -
+GET /assets/styles/css/tables.css 304 15.398 ms - -
+GET /assets/styles/css/main.css 304 18.789 ms - -
+GET /bower_components/angular/angular.js 304 25.381 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 20.382 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 21.687 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 25.624 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 32.499 ms - -
+GET /bower_components/restangular/src/restangular.js 304 17.885 ms - -
+GET /app/app.js 304 16.469 ms - -
+GET /app/routes.js 304 14.958 ms - -
+GET /app/landing/landing.js 304 6.507 ms - -
+GET /angular-services/dist/services.js 304 12.128 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 4.526 ms - -
+GET /app/main/main.js 304 8.200 ms - -
+GET /app/main/controllers/main.ctrl.js 304 17.608 ms - -
+GET /app/pet/pet.js 304 17.380 ms - -
+GET /app/pet/petController.js 304 21.903 ms - -
+GET /app/pet/newPetController.js 304 25.565 ms - -
+GET /app/settings/settings.js 304 27.017 ms - -
+GET /app/settings/settingsController.js 304 32.325 ms - -
+GET /app/request/request.js 304 24.719 ms - -
+GET /app/request/requestFormController.js 304 26.838 ms - -
+GET /app/request/requestConfirmController.js 304 22.305 ms - -
+GET /app/landing/templates/landing.tpl.html 304 1.328 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 1.607 ms - -
+GET /assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0 304 3.220 ms - -
+12345
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:57 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+GET / 304 12.879 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 8.960 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 12.616 ms - -
+GET /assets/styles/css/layout.css 304 11.757 ms - -
+GET /assets/styles/css/elements.css 304 10.596 ms - -
+GET /assets/styles/css/personal-info.css 304 14.398 ms - -
+GET /assets/styles/css/tables.css 304 15.244 ms - -
+GET /assets/styles/css/main.css 304 14.482 ms - -
+GET /bower_components/angular/angular.js 304 27.238 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 24.432 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 37.535 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 37.731 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 37.363 ms - -
+GET /app/app.js 304 22.892 ms - -
+GET /bower_components/restangular/src/restangular.js 304 29.543 ms - -
+GET /app/routes.js 304 14.002 ms - -
+GET /app/landing/landing.js 304 12.821 ms - -
+GET /angular-services/dist/services.js 304 15.702 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 14.438 ms - -
+GET /app/main/main.js 304 11.853 ms - -
+GET /app/main/controllers/main.ctrl.js 304 13.698 ms - -
+GET /app/pet/pet.js 304 11.666 ms - -
+GET /app/pet/petController.js 304 8.964 ms - -
+GET /app/pet/newPetController.js 304 12.067 ms - -
+GET /app/settings/settings.js 304 10.389 ms - -
+GET /app/settings/settingsController.js 304 9.536 ms - -
+GET /app/request/request.js 304 7.357 ms - -
+GET /app/request/requestFormController.js 304 4.266 ms - -
+GET /app/request/requestConfirmController.js 304 3.771 ms - -
+GET /app/landing/templates/landing.tpl.html 304 0.869 ms - -
+GET /assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0 304 2.524 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 4.152 ms - -
+12345
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+    ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:16:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+0:58 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+POST /api/users/signup 200 31.709 ms - 286
+GET /api/me 404 4.400 ms - 19
+^C%                                                                                                                                                                             1:02 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+POST /api/users/signup 200 30.666 ms - 286
+GET /api/me 404 5.181 ms - 19
+^C%                                                                                                                                                                             1:04 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+{ [ValidationError: Validation failed]
+  message: 'Validation failed',
+  name: 'ValidationError',
+  errors: 
+   { email: 
+      { [ValidatorError: Path `email` is required.]
+        message: 'Path `email` is required.',
+        name: 'ValidatorError',
+        path: 'email',
+        type: 'required',
+        value: undefined } } }
+12345
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:17:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+1:04 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+{ email: 'test@test.com', password: 'test' }
+{ [ValidationError: Validation failed]
+  message: 'Validation failed',
+  name: 'ValidationError',
+  errors: 
+   { email: 
+      { [ValidatorError: Path `email` is required.]
+        message: 'Path `email` is required.',
+        name: 'ValidatorError',
+        path: 'email',
+        type: 'required',
+        value: undefined } } }
+
+http.js:689
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:662:10)
+    at ServerResponse.send (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/express/lib/response.js:235:15)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:18:9
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+1:07 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+{ email: 'test@test.com', password: 'test' }
+{ email: 'test@test.com',
+  password: '$2a$05$IQ5jwaaWyhVJUSgtizJLe.N9ZqQPN0RJfeNNIlD6.ogw8CirS0tLq',
+  _id: 54488d373473f8e385236205 }
+POST /api/users/signup 200 70.110 ms - 50
+^C%                                                                                                                                                                             1:08 FoodScore - JS feat/crudRoutes* ❯ node server/server.js                                        
+Listening on http://localhost:9000
+{}
+POST /api/users/signup 404 54.928 ms - 286
+{}
+POST /api/users/signup 404 4.258 ms - 286
+GET / 304 3.748 ms - -
+GET /assets/styles/css/bootstrap-overrides.css 304 6.725 ms - -
+GET /bower_components/bootstrap-css-only/css/bootstrap.min.css 304 28.500 ms - -
+GET /assets/styles/css/layout.css 304 3.782 ms - -
+GET /assets/styles/css/elements.css 304 3.431 ms - -
+GET /assets/styles/css/personal-info.css 304 4.281 ms - -
+GET /assets/styles/css/tables.css 304 4.226 ms - -
+GET /assets/styles/css/main.css 304 4.181 ms - -
+GET /bower_components/angular/angular.js 304 3.984 ms - -
+GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.js 304 4.478 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js 304 10.406 ms - -
+GET /bower_components/angular-ui-router/release/angular-ui-router.min.js 304 7.605 ms - -
+GET /bower_components/lodash/dist/lodash.compat.js 304 11.310 ms - -
+GET /app/app.js 304 12.242 ms - -
+GET /bower_components/restangular/src/restangular.js 304 14.718 ms - -
+GET /app/routes.js 304 14.047 ms - -
+GET /app/landing/landing.js 304 11.991 ms - -
+GET /angular-services/dist/services.js 304 12.903 ms - -
+GET /app/landing/controllers/landing.ctrl.js 304 12.005 ms - -
+GET /app/main/main.js 304 3.715 ms - -
+GET /app/main/controllers/main.ctrl.js 304 3.612 ms - -
+GET /app/pet/pet.js 304 3.495 ms - -
+GET /app/pet/petController.js 304 1.617 ms - -
+GET /app/pet/newPetController.js 304 3.231 ms - -
+GET /app/settings/settings.js 304 3.191 ms - -
+GET /app/settings/settingsController.js 304 5.243 ms - -
+GET /app/request/request.js 304 6.862 ms - -
+GET /app/request/requestFormController.js 304 8.075 ms - -
+GET /app/request/requestConfirmController.js 304 7.844 ms - -
+GET /app/landing/templates/landing.tpl.html 304 0.699 ms - -
+GET /bower_components/angular-cookies/angular-cookies.min.js.map 304 1.579 ms - -
+GET /assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0 304 4.027 ms - -
+{}
+POST /api/users/signup 404 3.492 ms - 286
+^[[A^C%                                                                                                                                                                         1:14 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+{}
+
+/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:15
+      console.err(err);
+              ^
+TypeError: Object #<Console> has no method 'err'
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/server/user/user_controller.create.js:15:15
+    at handleError (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:986:5)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:977:20
+    at ObjectId.SchemaType.doValidate (/Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/schematype.js:603:22)
+    at /Users/jhh11/Developer/AndroidStudioProjects/Team-13/FoodScore - JS/node_modules/mongoose/lib/document.js:968:9
+    at process._tickCallback (node.js:419:13)
+1:14 FoodScore - JS feat/crudRoutes* ❯ node server/server.js
+Listening on http://localhost:9000
+{}
+{ [ValidationError: Validation failed]
+  message: 'Validation failed',
+  name: 'ValidationError',
+  errors: 
+   { password: 
+      { [ValidatorError: Path `password` is required.]
+        message: 'Path `password` is required.',
+        name: 'ValidatorError',
+        path: 'password',
+        type: 'required',
+        value: undefined },
+     email: 
+      { [ValidatorError: Path `email` is required.]
+        message: 'Path `email` is required.',
+        name: 'ValidatorError',
+        path: 'email',
+        type: 'required',
+        value: undefined } } }
+POST /api/users/signup - - ms - -
+^C%                                                                                                                                                                             1:16 FoodScore - JS feat/crudRoutes* ❯ browserify --entry app/services.js --outfile dist/services.js
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: ENOENT, open 'dist/services.js'
+1:16 FoodScore - JS feat/crudRoutes* ❯ browserify --entry app/services.js --outfile dist/services.js
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: ENOENT, open 'dist/services.js'
+1:16 FoodScore - JS feat/crudRoutes* ❯ browserify --entry app/services.js --outfile dist/services.js
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: ENOENT, open 'dist/services.js'
+1:17 FoodScore - JS feat/crudRoutes* ❯ browserify --entry client/angular-services/app/services.js --outfile client/angular-services/dist/services.js
+ -- no matches found --

@@ -20,19 +20,20 @@ fpath=("$curr/terminal" $fpath)
 autoload -Uz promptinit && promptinit
 prompt 'gnauhnoj'
 
-source ~/.gibo-completion.zsh
-
 # online help?
 unalias run-help
 autoload run-help
 HELPDIR=/usr/local/share/zsh/help
 
+source ~/.gibo-completion.zsh
 . ~/Developer/z/z.sh
 
 # virtualenvs
+# eval "$(pyenv init -)"
 export WORKON_HOME="$HOME/.virtualenvs"
+export PROJECT_HOME="$HOME/Developer"
 source /usr/local/bin/virtualenvwrapper.sh
-if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+# if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 # ==================================================================
 # = Aliases =
