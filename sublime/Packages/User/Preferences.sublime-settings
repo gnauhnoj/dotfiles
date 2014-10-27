@@ -1,21 +1,29 @@
 {
+	"auto_indent": true,
+	"bold_folder_labels": true,
+	"caret_style": "wide",
 	"color_scheme": "Packages/User/brogrammer (SL).tmTheme",
-	"theme": "Brogrammer.sublime-theme",
+	"detect_indentation": true,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
 	"file_exclude_patterns":
 	[
 		".DS_Store",
-		"*.map",
+		"*.pyc",
+		"*.map"
 	],
+	"find_selected_text": true,
+	"fold_buttons": true,
 	"folder_exclude_patterns":
 	[
 		".git",
 		"log",
 		"tmp",
+		"node_modules",
+		"bower_components"
 	],
 	"font_face": "DejaVu Sans Mono",
 	"font_size": 13,
-	"tab_size": 2,
-	"caret_style": "wide",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -23,21 +31,12 @@
 		"Vintage"
 	],
 	"save_on_focus_lost": true,
-	"bold_folder_labels": true,
-	"fold_buttons": true,
-	"fade_fold_buttons": false,
-	// "side_bar_visible": true,
-	"side_bar_width": 210,
-	"translate_tabs_to_spaces": true,
-	"word_wrap": true,
-	"auto_indent": true,
+	"side_bar_width": 150,
 	"smart_indent": true,
- 	"find_selected_text": true,
- 	"detect_indentation": true,
-	// "line_padding_bottom": 1,
-	// "line_padding_top": 1,
-	"ensure_newline_at_eof_on_save": true,
+	"tab_size": 2,
+	"theme": "Brogrammer.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	// "use_simple_full_screen": true
+	"word_wrap": true
 }
