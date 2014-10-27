@@ -1,6 +1,6 @@
 # Dotfiles
 
-## This is a fork of paulmillr/dotfiles modified for my personal use
+** This is a fork of paulmillr/dotfiles modified for my personal use **
 
 Colourful & robust OS X configuration files and utilities.
 
