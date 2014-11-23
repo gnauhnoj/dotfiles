@@ -1,3 +1,5 @@
+skip_global_compinit=1
+
 # Defines environment variables.
 privenv="$HOME/.private-env"
 [[ -f "$privenv" ]] && source $privenv

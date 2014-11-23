@@ -1,0 +1,30 @@
+{
+	"installed_packages":
+	[
+		"FixMyJS",
+		"FullScreenStatus",
+		"GitGutter",
+		"JavaScriptNext - ES6 Syntax",
+		"JsFormat",
+		"JSHint",
+		"LaTeXTools",
+		"MarkdownEditing",
+		"Seti_UI",
+		"SublimeCodeIntel",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jscs",
+		"SublimeLinter-jshint",
+		"SublimeLinter-pep8",
+		"SublimeREPL",
+		"Theme - Brogrammer",
+		"Theme - Cobalt2",
+		"Theme - Flatland",
+		"Theme - Gravity",
+		"Theme - Soda",
+		"Theme - Soda SolarizedDark",
+		"Theme - Spacegray",
+		"TrailingSpaces"
+	]
+}

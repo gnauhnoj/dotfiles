@@ -1,0 +1,8 @@
+[
+{"keys": ["ctrl+shift+c"], "command": "exec", "args": {"kill": true} },
+{ "keys": ["super+shift+r"], "command": "reindent" },
+{ "keys": ["super+v"], "command": "paste_and_indent" },
+{ "keys": ["super+shift+v"], "command": "paste" },
+{ "keys": ["ctrl+tab"], "command": "next_view" },
+{ "keys": ["ctrl+shift+tab"], "command": "prev_view" }
+]
