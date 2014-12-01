@@ -61,8 +61,6 @@ com="$dev/com"
 pm="$dev/gnauhnoj"
 as="$HOME/Library/Application Support"
 
-export ANDROID_HOME="/usr/local/Cellar/android-sdk/22.6"
-
 # Set the the list of directories that cd searches.
 cdpath=(
   $cdpath
@@ -87,8 +85,6 @@ for path_file in /etc/manpaths.d/*(.N); do
 done
 unset path_file
 
-alias adb=$ANDROID_HOME/platform-tools/adb
-
 # Set the list of directories that Zsh searches for programs.
 # export PYTHONPATH=/usr/local/lib/python2.7/site-packages
 path=(
@@ -98,7 +94,6 @@ path=(
   /usr/local/share/npm/bin
   /usr/{bin,sbin}
   /{bin,sbin}
-  $ANDROID_HOME/tools
   $path
 )
 
