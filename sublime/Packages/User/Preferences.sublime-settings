@@ -29,8 +29,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown",
-		"Vintage"
+		"Vintage",
+		"Markdown"
 	],
 	"save_on_focus_lost": true,
 	"side_bar_width": 150,
