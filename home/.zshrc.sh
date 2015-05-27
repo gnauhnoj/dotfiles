@@ -32,6 +32,7 @@ source ~/.gibo-completion.zsh
 # eval "$(pyenv init -)"
 export WORKON_HOME="$HOME/.virtualenvs"
 export PROJECT_HOME="$HOME/Developer"
+
 source /usr/local/bin/virtualenvwrapper.sh
 # if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 

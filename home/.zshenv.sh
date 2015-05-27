@@ -115,3 +115,4 @@ BROWSER=''
 unset BROWSER
 
 export NODE_PATH='/usr/local/lib/node_modules'
+export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home'
