@@ -23,14 +23,14 @@
 		"node_modules",
 		"bower_components"
 	],
-	"font_face": "DejaVu Sans Mono",
-	"font_size": 15,
+	"font_face": "Hack",
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"save_on_focus_lost": true,
 	"side_bar_width": 150,
